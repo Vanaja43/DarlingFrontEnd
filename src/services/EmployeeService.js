@@ -9,7 +9,7 @@ class EmployeeService {
     }
 
     createEmployee(employee){
-        return axios.post(EMPLOYEE_API_BASE_URL+'/'+"saveEmployee", employee);
+        return axios.post(EMPLOYEE_API_BASE_URL+'/'+"saveemployee", employee);
     }
 
     getEmployeeById(employeeId){
